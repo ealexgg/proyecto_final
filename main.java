@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package proyecto.final1;
 
 import java.util.Scanner;
@@ -19,6 +15,7 @@ public class ProyectoFinal1 {
         Scanner leer = new Scanner(System.in);        
         int vector[]=new int [100];
         int i=0,j,aux;
+        System.out.println("Vector aleatorio:");
             vector[i]=(int)(Math.random()*10);
                 for(i=1;i<100;i++){
                     vector[i]=(int)(Math.random()*10);}
@@ -38,6 +35,8 @@ public class ProyectoFinal1 {
                            }
         System.out.println();
         System.out.println();
+        System.out.println("Vector Ordenado:");
+        
         for(i=0;i<100;i++)
         {
         System.out.print(" "+vector[i]);    
